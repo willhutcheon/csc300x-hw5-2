@@ -62,9 +62,13 @@ app.post("/jokebook/joke/new", function (req, res) {
         return res.status(400).json({ 'error': 'invalid or insufficient user input' });
     }
 
-    jokes[category].push({ joke, response });
-    res.json(jokes[category]);
+    const newJoke = { joke, response }; // Create a new joke object
+
+    jokes[category].push(newJoke); // Push the new joke to the category array
+
+    res.json(jokes[category]); // Respond with the updated array of jokes for the category
 });
+
 
 app.get("/", function (req, res) {
     res.send("Hello, World from Express!");
