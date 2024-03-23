@@ -1,6 +1,7 @@
 # *jokebook* API Documentation
-## Endpoint 1 - title here
+## Endpoint 1 - /jokebook/categories
 **Request Format:**
+**GET**
 **Request Type:**
 **Returned Data Format**:
 **Description:**
