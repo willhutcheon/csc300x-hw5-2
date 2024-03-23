@@ -10,6 +10,7 @@
 **Example Request:**
 **GET http://localhost:3000/jokebook/categories**
 **Example Response:**
+**["funnyJoke", "lameJoke"]**
 **[**
     **"funnyJoke",**
     **"lameJoke"**
