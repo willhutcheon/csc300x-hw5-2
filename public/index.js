@@ -1,33 +1,3 @@
-/* document.getElementById("newJokeForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent default form submission
-
-    const formData = new FormData(this); // Get form data
-    const newJoke = {}; // Create an object to store the form data
-
-    // Populate the newJoke object with form data
-    formData.forEach((value, key) => {
-        newJoke[key] = value;
-    });
-
-    // Send a POST request to the server with the new joke data
-    fetch("/jokebook/joke/new", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(newJoke)
-    })
-    .then(response => response.json())
-    .then(data => {
-        console.log("New joke added:", data);
-        alert("New joke added successfully!");
-    })
-    .catch(error => {
-        console.error("Error:", error);
-        alert("Failed to add new joke. Please try again.");
-    });
-}); */
-
 document.getElementById("newJokeForm").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent default form submission
 
