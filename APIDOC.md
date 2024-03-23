@@ -10,10 +10,10 @@
 **Example Request:**
 **GET http://localhost:3000/jokebook/categories**
 **Example Response:**
-<!-- [
+[
     "funnyJoke",
     "lameJoke"
-] -->
+]
 **Error Handling:**
 **If the request cannot be sucessfully processed a 500 internal server error will be returned**
 
